@@ -2,7 +2,7 @@
 
 int sum_range(int *start, int *end){
     int sum;
-    for(int i = 0; i < (end-start)+1; i++){
+    for(int i = 0; i < (end-start); i++){
         sum += *(start+i);
     }
     return sum;
